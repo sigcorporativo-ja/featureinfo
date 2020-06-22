@@ -54,7 +54,7 @@ let map = M.map({
   container: 'mapjs',
 });
 
-let mp = new FeatureInfo(paramsPlugin);
+let mp = new M.plugin.FeatureInfo(paramsPlugin);
 
 // añadirlo al mapa
 map.addPlugin(mp);
